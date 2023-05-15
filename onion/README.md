@@ -1,6 +1,6 @@
 # Onion
 
-This project launchs a hidden service on the tor network!
+In this project you will create a container that provides an easy and secure way to run a Tor hidden service within a containerized environment. Tor hidden services allow you to host websites, services, or other resources while preserving anonymity and privacy.
 
 ## Dockerfile Explanation ✨🐳🔧
 

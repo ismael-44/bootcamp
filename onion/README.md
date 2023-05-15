@@ -1,4 +1,8 @@
-# Dockerfile Explanation ✨🐳🔧
+# Onion
+
+This project launchs a hidden service on the tor network!
+
+## Dockerfile Explanation ✨🐳🔧
 
 This Dockerfile is a script that outlines the steps for building a Docker image based on the latest version of NGINX. Let's dive into the details of each instruction:
 
@@ -57,7 +61,7 @@ These instructions copy various configuration files to their respective location
 
 Each instruction in this Dockerfile contributes to the creation of a customized NGINX image with additional components and configurations.
 
-# Usage
+## Usage
 
 1. Replace the authorized_keys content with your user public key.
 2. Launch the image build (execute this command on the dockerfile folder):
@@ -85,5 +89,5 @@ cat /var/lib/tor/other_hidden_service/hostname
 ssh -p 4242 ssh_user@localhost
 ```
 
-# Disclaimer
+## Disclaimer
 Please note that this explanation is provided for educational purposes and should not be used for any unauthorized or malicious activities.

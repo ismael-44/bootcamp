@@ -1,4 +1,4 @@
-# <img src="logo.png" alt="42 Malaga Cybersecurity Bootcamp" width="400">
+# 42 Malaga Cybersecurity Bootcamp
 
 Welcome to the 42 Malaga Cybersecurity Bootcamp Repository! 🚀
 
@@ -8,17 +8,11 @@ This repository contains all the projects that I completed during my time at the
 
 The repository includes projects covering a wide range of cybersecurity topics, including but not limited to:
 
-1. Network Security
-2. Web Application Security
-3. Cryptography
-4. Penetration Testing
-5. Incident Response
-6. Forensics
-7. Secure Coding Practices
-8. Security Assessments
-9. Secure System Design
-10. Ethical Hacking
-11. Secure Infrastructure Management
+1. Ft_otp: Python script that generate Time Based OTP codes
+2. Onion: Dockerfile that launch a tor hidden service
+3. Scorpion: Python script that reads EXIF data from the images
+4. Spyder: Python script that scraps images from a website
+5. Stockholm: Didactic purpose ransomware
 
 ## 📁 Structure
 

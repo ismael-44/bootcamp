@@ -27,18 +27,18 @@ The program accepts command-line arguments to perform different actions. Here ar
 To run the program, use the following command:
 
 ```bash
-python otp_code_generator.py [options] file
+python ft_otp.py [options] file
 ```
 ## Examples
 #### Generate an encrypted key:
 ```bash
-python otp_code_generator.py -g key.txt
+python ft_otp.py -g key.txt
 ```
 This command will generate an encrypted key and save it in the ./ft_otp.key file. You need to provide a valid file named key.txt containing a length hexadecimal string (at least 64 characters).
 
 #### Generate a time-based OTP code:
 ```bash
-python otp_code_generator.py -k encrypted_key.txt
+python ft_otp.py -k encrypted_key.txt
 ```
 This command will read the encrypted key from the encrypted_key.txt file and generate a time-based OTP code.
 

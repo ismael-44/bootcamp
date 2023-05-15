@@ -45,10 +45,6 @@ python program.py -s
 python program.py -r key.pem
 ```
 
-## 💻 Usage
-
-Feel free to explore the individual project directories to learn more about the specific topics covered and the techniques employed. You can clone the repository and access the project files to review the code, documentation, and any accompanying materials.
-
 ## ⚠️ Disclaimer
 
 Attention Users! Your commitment to responsible and ethical use is essential. Please read and abide by the following cybersecurity disclaimer:

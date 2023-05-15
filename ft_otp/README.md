@@ -68,8 +68,3 @@ Attention Users! Your commitment to responsible and ethical use is essential. Pl
 Remember, the repo is a tool to enhance your understanding of cybersecurity. It is your responsibility to ensure that you use it responsibly and ethically, contributing positively to the field of cybersecurity.
 
 Stay curious, learn responsibly, and help build a safer digital world! 🛡️🔒
-
-
-If you have any questions or need further assistance, feel free to contact me
-
-Enjoy generating OTP codes with this program!

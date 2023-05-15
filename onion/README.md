@@ -61,7 +61,7 @@ These instructions copy various configuration files to their respective location
 
 Each instruction in this Dockerfile contributes to the creation of a customized NGINX image with additional components and configurations.
 
-## Usage
+## 💻 Usage
 
 1. Replace the authorized_keys content with your user public key.
 2. Launch the image build (execute this command on the dockerfile folder):

@@ -44,6 +44,8 @@ This command will read the encrypted key from the encrypted_key.txt file and gen
 
 ## Important Note
 The generated OTP codes are based on the current time and are only valid for a specific duration. Make sure to use the code within the time frame specified.
+If you have any questions or need further assistance, feel free to contact me
+
 
 ## ⚠️ Disclaimer
 

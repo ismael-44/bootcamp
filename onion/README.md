@@ -89,5 +89,5 @@ cat /var/lib/tor/other_hidden_service/hostname
 ssh -p 4242 ssh_user@localhost
 ```
 
-## Disclaimer
+## ⚠️ Disclaimer
 Please note that this explanation is provided for educational purposes and should not be used for any unauthorized or malicious activities.

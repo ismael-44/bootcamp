@@ -1,0 +1,10 @@
+WARNING:root:User found: USER ftp
+
+WARNING:root:User found: USER ftp
+
+WARNING:root:Password found: PASS ftp
+
+WARNING:root:Password found: PASS ftp
+
+WARNING:root:File attempted to download: todo.txt
+WARNING:root:File attempted to download: todo.txt

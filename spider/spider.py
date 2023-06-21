@@ -4,6 +4,9 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 #Disable unsecure warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+import tkinter as tk
+from tkinter import filedialog
+from tkinter import messagebox
 
 #Definition of global variables
 url_main = None
@@ -280,3 +283,35 @@ def main():
 if __name__ == '__main__':
     main()
 
+window = tk.Tk()
+window.title("Image Downloader")
+window.geometry("400x200")
+
+# Crear los elementos de la interfaz
+url_label = tk.Label(window, text="URL:")
+url_label.pack()
+url_entry = tk.Entry(window, width=40)
+url_entry.pack()
+
+folder_path_label = tk.Label(window, text="Folder Path:")
+folder_path_label.pack()
+folder_path_entry = tk.Entry(window, width=40)
+folder_path_entry.pack()
+folder_path_button = tk.Button(window, text="Browse", command=select_folder_path)
+folder_path_button.pack()
+
+recursive_var = tk.BooleanVar()
+recursive_checkbox = tk.Checkbutton(window, text="Recursive", variable=recursive_var)
+recursive_checkbox.pack()
+
+depth_label = tk.Label(window, text="Max Depth:")
+depth_label.pack()
+depth_var = tk.IntVar()
+depth_scale = tk.Scale(window, from_=1, to=5, orient=tk.HORIZONTAL, variable=depth_var)
+depth_scale.pack()
+
+start_button = tk.Button(window, text="Start Download", command=start_download)
+start_button.pack()
+
+# Iniciar el bucle de eventos
+window.mainloop()
